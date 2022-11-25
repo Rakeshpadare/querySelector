@@ -1,20 +1,12 @@
-var header=document.querySelector('#main-header');
-
-header.style.borderBottom='solid 9px #000';
-
-
-
-// for input 
-
+var header=document.querySelector('#main-header')
+header.style.borderBottom='solid 5px #ccc';
 var input=document.querySelector('input');
+input.value='hiiiiii'
 
-input.value='Hello World';
-
-
-
-// for submit button
-
-var submit=document.querySelector('input[type="submit"]');
-
-submit.value='send the Message';
-
+var label= document.querySelector(".list-group-item");
+label.style.backgroundColor='red'
+var second= document.querySelector(".list-group-item:nth-child(2)");
+second.style.backgroundColor='green'
+'green'
+var third= document.querySelector(".list-group-item:nth-child(3)");
+third.style.display='none'
